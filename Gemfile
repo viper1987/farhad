@@ -20,6 +20,10 @@ group :development do
   gem 'spring',                '1.7.2'
   gem 'spring-watcher-listen', '2.0.0'
 end
+source 'https://rubygems.org'
+
+  gem 'rails',          '5.0.0.1'
+  gem 'bcrypt',         '3.1.11'
 
 group :test do
   gem 'rails-controller-testing', '0.1.1'
